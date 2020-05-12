@@ -20,7 +20,7 @@ app.get('/scale', (req, res)=>{
     res.sendFile(`${__dirname}/public/scale.htm`);
 });
 
-app.get('/matrices', (req, res)=>{
+app.get('/matrix', (req, res)=>{
     res.sendFile(`${__dirname}/public/projectionModelViewMatrix.htm`);
 });
 
@@ -32,7 +32,7 @@ app.get('/texture', (req, res)=>{
     res.sendFile(`${__dirname}/public/textureapp.htm`);
 });
 
-app.get('/spriteanim', (req, res)=>{
+app.get('/sprite', (req, res)=>{
     res.sendFile(`${__dirname}/public/spritesheetapp.htm`);
 });
 
