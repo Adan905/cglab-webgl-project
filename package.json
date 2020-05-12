@@ -1,0 +1,33 @@
+{
+  "name": "cglab-webgl-project",
+  "version": "1.0.0",
+  "description": "Proyecto Webgl 2.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adan905/cglab-webgl-project"
+  },
+  "keywords": [
+    "webgl",
+    "games",
+    "cg",
+    "shader",
+    "glsl",
+    "2d",
+    "3d"
+  ],
+  "author": "Adán Vargas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adan905/cglab-webgl-project/issues"
+  },
+  "homepage": "https://github.com/Adan905/cglab-webgl-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
